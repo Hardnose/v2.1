@@ -1,0 +1,90 @@
+/*
+                              __     _ 
+|_| _  __ _|__  _  _  _        _)   / | |(_| | (_|| |(_)_> (/_   \_//__ o \_/
+
+made by Wouter Durnez
+
+---
+
+INDEX STYLING
+
+*/
+/* FONTS & COLORS */
+/* HARDNOSE FONTS AND COLORS */
+/* Setting frame */
+/* line 21, /Users/Inkidu/Documents/Hardnose/Website/v2.1/css/index.scss */
+* {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif; }
+
+/* line 28, /Users/Inkidu/Documents/Hardnose/Website/v2.1/css/index.scss */
+body {
+  background: #6ca66b;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #6ca66b, #3398cc);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #6ca66b, #3398cc);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #6ca66b, #3398cc);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #6ca66b, #3398cc);
+  /* Standard syntax (must be last) */ }
+
+/* line 41, /Users/Inkidu/Documents/Hardnose/Website/v2.1/css/index.scss */
+object {
+  height: auto;
+  width: auto;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  opacity: 0.2;
+  z-index: 2; }
+  /* line 52, /Users/Inkidu/Documents/Hardnose/Website/v2.1/css/index.scss */
+  object > img {
+    height: auto;
+    width: auto;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    opacity: 0.2;
+    z-index: 1; }
+
+/* line 66, /Users/Inkidu/Documents/Hardnose/Website/v2.1/css/index.scss */
+.logo {
+  position: fixed;
+  overflow: hidden;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  margin: auto;
+  vertical-align: top; }
+  /* line 74, /Users/Inkidu/Documents/Hardnose/Website/v2.1/css/index.scss */
+  .logo :hover {
+    opacity: 1.0;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.5s ease; }
+
+/* line 83, /Users/Inkidu/Documents/Hardnose/Website/v2.1/css/index.scss */
+.message {
+  font-size: .8em;
+  text-align: center;
+  color: #ffffff;
+  height: auto;
+  width: auto;
+  position: absolute;
+  bottom: 45%;
+  left: 0;
+  right: 0;
+  opacity: .2; }
+
+/*# sourceMappingURL=index.css.map */
